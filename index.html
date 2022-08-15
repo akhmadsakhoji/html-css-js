@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="assets/profile.jpg" class="foto" alt="Foto Profile" height="100" width="100">
+            <div class="name">Akhmad Sakhoji Jamaludin</div>
+            <!-- <h2>Pengenalan</h2> -->
+            <!-- <p>Hallo, perkenalkan saya Akhmad Sakhoji Jamaludin lulusan Teknik Informatika Universitas Pamulang</p> -->
+            <p class="role">Mahasiswa</p>
+            <p class="about"><strong> Diah Ayu Putri Caturningtyas </strong> mengapa kau meninggalkan ku sendiri disini. Aku sangat mencintaimu setulus hatiku. dari dulu aku sangat suka padamu dan sampai sekarang masih suka padamu. Mengapa kau menjauhi ku, mengapa kau meninggalkanku, ternyata kamu selingkuh, selingkuh meninggalkanku</p>
+            <div class="link">
+                <a href="https://github.com/akhmadsakhoji">
+                    <img src="assets/github.png" alt="picture github">
+                </a>
+                <a href="https://facebook.com/akhmad.sakhoji">
+                    <img src="assets/facebook.png" alt="picture facebook">
+                </a>
+                <a href="https://instagram.com/akhmadsakhoji">
+                    <img src="assets/instagram.png" alt="instagram">
+                </a>
+                <!-- <br> -->
+            </div>
+            <button class="kontak" onclick="hubungi()">Contact Me</button>
+        </div>
+    </div>
+    <script>
+        function hubungi(){
+            console.log("Open WhatsApp");
+            open("https://wa.me/6285201591775")
+        }
+    </script>
+</body>
+</html>
